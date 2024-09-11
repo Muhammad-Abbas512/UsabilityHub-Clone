@@ -11,16 +11,19 @@
 
     .main-nav {
         overflow: initial;
+        color: white;
     }
 
     .nav-links {
         position: absolute;
-        background-color: white;
+        background-color: rgb(220, 215, 215);
         left: -100%;
-        top: 100%;
+        top: 30%;
         width: 100%;
         padding-block: 20px;
         transition: 0.2s ease-in-out;
+        z-index: 1;
+        
     }
 
     .nav-links.active {
